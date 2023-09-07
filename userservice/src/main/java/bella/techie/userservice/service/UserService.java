@@ -1,7 +1,8 @@
-package java.techie.userservice.service;
+package bella.techie.userservice.service;
 
-import java.techie.userservice.domain.Role;
-import java.techie.userservice.domain.User;
+import bella.techie.userservice.domain.Role;
+import bella.techie.userservice.domain.User;
+
 import java.util.List;
 
 public interface UserService {

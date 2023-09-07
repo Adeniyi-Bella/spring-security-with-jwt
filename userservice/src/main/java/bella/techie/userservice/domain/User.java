@@ -1,4 +1,4 @@
-package java.techie.userservice.domain;
+package bella.techie.userservice.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

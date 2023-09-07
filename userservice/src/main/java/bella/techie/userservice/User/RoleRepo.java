@@ -1,8 +1,7 @@
-package java.techie.userservice.User;
+package bella.techie.userservice.User;
 
+import bella.techie.userservice.domain.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import java.techie.userservice.domain.Role;
 
 public interface RoleRepo extends JpaRepository<Role, Long> {
     Role findByName(String name);

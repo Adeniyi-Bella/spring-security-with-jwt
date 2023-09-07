@@ -1,15 +1,15 @@
-package java.techie.userservice.service;
+package bella.techie.userservice.service;
 
-import lombok.NoArgsConstructor;
+import bella.techie.userservice.User.RoleRepo;
+import bella.techie.userservice.domain.Role;
+import bella.techie.userservice.domain.User;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.techie.userservice.User.RoleRepo;
-import java.techie.userservice.User.UserRepo;
-import java.techie.userservice.domain.Role;
-import java.techie.userservice.domain.User;
+import bella.techie.userservice.User.UserRepo;
+
 import java.util.List;
 
 @Service

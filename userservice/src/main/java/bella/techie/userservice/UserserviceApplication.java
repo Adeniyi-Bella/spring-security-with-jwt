@@ -1,4 +1,4 @@
-package java.techie.userservice;
+package bella.techie.userservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,0 +1,16 @@
+version: '3.1'
+
+services:
+  userservice-db:
+    image: mysql:8.0
+    container_name: userservice_db
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: userservice
+    ports:
+      - "3306:3306"
+    volumes:
+      - userservice-db-data:/var/lib/mysql
+
+volumes:
+  userservice-db-data:
